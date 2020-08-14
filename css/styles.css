@@ -1,0 +1,661 @@
+/* Jessica Kincaid 
+
+design.jessicakincaid.com
+December 2, 2019
+
+
+/* color palette
+PAGE BACKGROUND lightest gray = background-color: rgb(165, 177, 149);
+HEADLINE, YEAR slate greenish gray =  color: rgb(119, 128, 108);
+HIGHLIGHT/hover Pale highlight citrus yellow = color: rgb(186, 245, 109);
+BACKGROUND Darkest green =  background-color: rgb(13, 26, 0);
+DARK GREEN TEXT = color: rgb(26, 50, 1);
+*/
+
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    width: 100%;
+    font-weight: lighter;
+}
+
+body {
+    background-color: rgb(165, 177, 149);
+    color: rgb(147, 147, 145);
+    font-size: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+    width: 98%;
+}
+
+div.hero,
+div.container {
+    background-color: rgb(224, 227, 221);
+    color: rgb(147, 147, 145);
+    width: 100%;
+    padding: 6vw;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom: 1.8em;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-img {
+    max-width: 100%;
+}
+
+div.hero h2 {
+    font-size: 1.75em;
+    padding: 0 2vw;
+}
+
+h3 {
+    font-size: 2vw;
+    margin: auto;
+}
+
+h2,
+h3,
+a {
+    margin-bottom: 1vh;
+    padding-bottom: 0;
+    color: rgb(109, 109, 108);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container h2,
+div.primary-col h2,
+div.secondary-col h2 {
+    /* font-size: 1.25em;
+    font-style: italic; */
+    padding: 1em 1em 0.25em 1em;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+/*---------HEADER----------*/
+
+header.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: rgb(215, 223, 204);
+    background-color: rgb(22, 41, 2);
+}
+
+h1.name {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 4.75vw;
+    margin: 0;
+    padding: 5vw 3vw 0 5vw;
+    font-weight: lighter;
+}
+
+h1 a:visited,
+h1.name:visited {
+    color: rgb(138, 151, 120);
+}
+
+h1 a:hover {
+    color: rgb(186, 245, 109);
+}
+
+h2.headline {
+    font-size: 3vw;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 0.25vw 0 0 6vw;
+    color: rgb(147, 147, 145);
+    margin-bottom: 0;
+}
+
+
+/*---------NAVIGATION----------*/
+
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name a,
+.top-nav a {
+    color: rgb(147, 147, 145);
+    font-size: .25rem;
+    text-align: center;
+}
+
+ul.top-nav {
+    padding: 0;
+}
+
+ul.top-nav li {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    max-width: 8vw;
+    display: block;
+    margin: 2vw 3vw;
+}
+
+ul.top-nav li a:active,
+.dropbtn {
+    text-transform: uppercase;
+    color: rgb(186, 245, 109);
+    background-color: rgb(13, 26, 0);
+}
+
+
+/* ---- Dropdown menu  ---- */
+
+div.dropdown {
+    flex: 1;
+}
+
+.dropbtn {
+    font-size: 1.25rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: rgb(186, 245, 109);
+    background-color: rgb(13, 26, 0);
+    z-index: 1;
+    max-width: 10em;
+    text-align: center;
+}
+
+.dropdown-content a {
+    padding: .75em 2.5em;
+    max-width: 8vw;
+    font-size: 1.25rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    padding: .5em 3.5em;
+    color: rgb(215, 223, 204);
+    background-color: rgb(13, 26, 0);
+    text-align: center;
+}
+
+.dropdown-content a:visited {
+    color: rgb(186, 245, 109);
+}
+
+.dropdown:hover .dropdown-content {
+    text-align: center;
+    display: block;
+}
+
+
+/* -------------details, image descriptions ---------------*/
+
+ul.detail-list {
+    padding-bottom: .5em;
+}
+
+ul.detail-list li {
+    color: rgb(109, 109, 108);
+    font-size: 1.75rem;
+}
+
+p.details {
+    display: inline;
+    font-size: 1.25rem;
+}
+
+p.description {
+    margin-top: 0.75vw;
+    height: 2em;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+p.concept {
+    font-size: 1.1rem;
+    padding: 1em;
+    /* color: rgb(215, 223, 204); */
+    /* background-color: rgb(13, 26, 0); */
+}
+
+
+/* -------------Resume Page ---------------*/
+
+section.accomplish {
+    width: 98%;
+}
+
+h3.accomplish {
+    color: rgb(13, 26, 0);
+}
+
+dt.year {
+    color: rgb(119, 128, 108);
+}
+
+dd.exhibit {
+    width: 88%;
+    padding-bottom: 1vh;
+}
+
+
+/* -------------DESIGN Page ---------------*/
+
+iframe#violet {
+    margin: 0 0 .0em 0.25em;
+    margin-bottom: 2em;
+    /* max-width: 300px;
+    min-height: 70vh; */
+    /* display: block; */
+    float: right;
+}
+
+div.mobank {
+    border: 2px;
+    margin-top: 2em;
+}
+
+img.artboards {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+/* -------------CONTACT Page ---------------*/
+
+div#contactForm {
+    background-color: rgb(13, 26, 0);
+}
+
+img.contact-img {
+    max-width: 100%;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    color: rgb(215, 223, 204);
+    background-color: rgb(13, 26, 0);
+    padding-bottom: 6vh;
+}
+
+form input {
+    border-radius: 6px;
+}
+
+h2.contact {
+    font-style: normal;
+}
+
+
+/*----------FOOTER-------------*/
+
+footer {
+    background-color: rgb(224, 227, 221);
+    text-align: center;
+    padding: .25em 0;
+}
+
+footer img {
+    max-width: 25px;
+}
+
+footer ul li {
+    padding: .25vw;
+}
+
+footer ul {
+    display: flex;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+/* Extremely tiny devices (360px and down) */
+
+@media only screen and (max-width: 360px) {
+    body {
+        font-size: 1rem;
+        line-height: 1;
+    }
+    h1.name a {
+        font-size: 3rem;
+    }
+    div.hero h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: .5rem;
+        margin-bottom: 1.8em;
+        color: rgb(13, 26, 0);
+    }
+    div.container h2,
+    div.primary-col h2,
+    div.secondary-col h2,
+    div#contactForm h2 {
+        font-size: 0.5rem;
+        color: rgb(13, 26, 0);
+    }
+    p.details {
+        font-size: .6rem;
+        color: rgb(13, 26, 0);
+    }
+    p.description {
+        font-size: .5rem;
+        color: rgb(13, 26, 0);
+    }
+    ul.top-nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    button.dropbtn {
+        width: 4rem;
+    }
+    ul.top-nav li a,
+    div.dropdown-content li a,
+    button.dropbtn {
+        margin: 0.25rem;
+        font-size: 0.4rem;
+    }
+    ul.detail-list li {
+        font-size: 1.5rem;
+        color: rgb(13, 26, 0);
+    }
+    aside {
+        max-width: 23rem;
+    }
+    h3.accomplish {
+        font-size: 1.85rem;
+        color: rgb(13, 26, 0);
+    }
+    dd.exhibit {
+        margin-top: 5%;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1.25rem;
+    }
+    h1.name a {
+        font-size: 2rem;
+    }
+    h2.headline {
+        font-size: 1.35rem;
+    }
+    ul.top-nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    button.dropbtn {
+        width: 5rem;
+    }
+    div.dropdown-content a {
+        padding: 0.5rem;
+    }
+    ul.top-nav li a,
+    div.dropdown-content li a,
+    button.dropbtn {
+        margin: 2px;
+        font-size: 1rem;
+        border-style: none;
+    }
+    div.container h2,
+    div.secondary-col h2 div.primary-col h2,
+    p.description {
+        font-size: 1.25rem;
+    }
+    ul.detail-list {
+        margin-top: 1.5vh;
+    }
+    ul.detail-list li {
+        font-size: 1.5;
+    }
+    p.details {
+        font-size: 0.75rem;
+    }
+    p {
+        font-size: 1.15rem;
+        margin-bottom: 2em;
+    }
+    h3.accomplish {
+        font-size: 1.75rem;
+    }
+    dd.exhibit {
+        margin-top: 8%;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+    h1.name a {
+        font-size: 2.5rem;
+    }
+    header h2.headline {
+        font-size: 1.75rem;
+    }
+    p {
+        font-size: 1.75rem;
+        margin-bottom: 1.8em;
+    }
+    h3.accomplish {
+        font-size: 3.25rem;
+    }
+    dt.year {
+        font-size: 1.25rem;
+    }
+    div.container h2,
+    div.primary-col h2,
+    div.secondary-col h2 {
+        font-size: 1.25rem;
+    }
+    ul.detail-list {
+        margin-top: .5vh;
+    }
+    ul.detail-list li {
+        font-size: 1.75;
+    }
+    ul.top-nav {
+        margin-right: 4.5rem;
+    }
+    button.dropbtn {
+        width: 6rem;
+    }
+    ul.top-nav li a,
+    div.dropdown-content li a,
+    button.dropbtn {
+        margin: 2px;
+        font-size: 1.5rem;
+        border-style: none;
+    }
+    dl.row {
+        font-size: 4rem;
+    }
+    dt.year {
+        font-size: 2.75rem;
+        line-height: 2.75;
+    }
+    dd.exhibit {
+        font-size: 2.5rem;
+        line-height: 1.75;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    h1.name a {
+        font-size: 4.25rem;
+    }
+    header h2.headline {
+        font-size: 2.75rem;
+    }
+    p {
+        font-size: 1.5rem;
+        margin-bottom: 1.8em;
+    }
+    ul.top-nav li {
+        font-size: 1rem;
+    }
+    button.dropbtn {
+        width: 7rem;
+    }
+    ul.top-nav li a,
+    div.dropdown-content li a,
+    button.dropbtn {
+        margin: 2px;
+        font-size: 1.75rem;
+        border-style: none;
+    }
+    div.detail-list ul li p.details {
+        margin-bottom: 1.5rem;
+    }
+    /* ul.detail-list {
+        margin-top: .25vh;
+    } */
+    ul.detail-list li {
+        font-size: 3.75;
+    }
+    p.concept {
+        font-size: 3.75rem;
+        color: rgb(26, 50, 1);
+    }
+    aside {
+        max-width: 60%;
+    }
+    h3.accomplish {
+        font-size: 2.75rem;
+    }
+    dl.row {
+        font-size: 2.5rem;
+    }
+    dt.year {
+        font-size: 3.75rem;
+        line-height: 2.75;
+    }
+    dd.exhibit {
+        font-size: 3.25rem;
+        line-height: 2.25;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+    h2.headline {
+        font-size: 2.75rem;
+    }
+    div.primary-col h2 {
+        font-size: 2.25rem;
+    }
+    p.description {
+        font-size: 2rem;
+    }
+    p.concept {
+        font-size: 1.25rem;
+    }
+    button.dropbtn {
+        width: 8rem;
+    }
+    ul.top-nav li a {
+        font-size: 1.25rem;
+    }
+    dt.year {
+        font-size: 2.5rem;
+    }
+    dd.exhibit {
+        font-size: 2.25rem;
+        line-height: 1.75;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+    h2.headline {
+        font-size: 2.5rem;
+    }
+    ul.top-nav li a,
+    button.dropbtn {
+        border-style: none;
+        font-size: 2.25rem;
+    }
+    div.dropdown-content {
+        width: 8rem;
+    }
+    div.dropdown-content a {
+        padding: 1.75rem;
+    }
+    p.description {
+        font-size: 3rem;
+    }
+    p.details {
+        font-size: 1.5rem;
+        padding-top: 0.1rem;
+        margin-top: 0.1rem;
+        line-height: 1;
+    }
+    dt.year {
+        font-size: 1.5rem;
+    }
+    dd.exhibit {
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+}
