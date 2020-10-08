@@ -1,8 +1,6 @@
 /* Jessica Kincaid 
 
-design.jessicakincaid.com
-December 2, 2019
-
+gh-pages Open_studio
 
 /* color palette
 PAGE BACKGROUND lightest gray = background-color: rgb(165, 177, 149);
@@ -223,7 +221,7 @@ ul.detail-list {
 }
 
 ul.detail-list li {
-    color: rgb(109, 109, 108);
+    color: rgb(99, 99, 97);
     font-size: 1.75rem;
 }
 
@@ -358,7 +356,7 @@ footer ul {
     p {
         font-size: .5rem;
         margin-bottom: 1.8em;
-        color: rgb(13, 26, 0);
+        color: #939391;
     }
     div.container h2,
     div.primary-col h2,
@@ -453,7 +451,7 @@ footer ul {
         font-size: 0.75rem;
     }
     p {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         margin-bottom: 2em;
     }
     h3.accomplish {
@@ -481,7 +479,7 @@ footer ul {
         font-size: 1.75rem;
     }
     p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         margin-bottom: 1.8em;
     }
     h3.accomplish {
