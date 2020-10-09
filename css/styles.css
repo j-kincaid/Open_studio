@@ -3,10 +3,11 @@
 gh-pages Open_studio
 
 /* color palette
-PAGE BACKGROUND lightest gray = background-color: rgb(165, 177, 149);
-HEADLINE, YEAR slate greenish gray =  color: rgb(119, 128, 108);
+PAGE BACKGROUND lightest gray = background-color: rgb(242, 245, 239);
+PARAGRAPH TEXT = color: rgb(68, 68, 66);
+HEADLINE slate greenish gray =  color: rgb(119, 128, 108);
 HIGHLIGHT/hover Pale highlight citrus yellow = color: rgb(186, 245, 109);
-BACKGROUND Darkest green =  background-color: rgb(13, 26, 0);
+BACKGROUND, YEAR Darkest green =  background-color: rgb(13, 26, 0);
 DARK GREEN TEXT = color: rgb(26, 50, 1);
 */
 
@@ -23,8 +24,8 @@ DARK GREEN TEXT = color: rgb(26, 50, 1);
 }
 
 body {
-    background-color: rgb(165, 177, 149);
-    color: rgb(147, 147, 145);
+    background-color: rgb(242, 245, 239);
+    color: rgb(68, 68, 66);
     font-size: 0.5rem;
     font-family: 'Lato', sans-serif;
     line-height: 1.4;
@@ -33,8 +34,6 @@ body {
 
 div.hero,
 div.container {
-    background-color: rgb(224, 227, 221);
-    color: rgb(147, 147, 145);
     width: 100%;
     padding: 6vw;
     margin: auto;
@@ -83,8 +82,6 @@ img {
 div.container h2,
 div.primary-col h2,
 div.secondary-col h2 {
-    /* font-size: 1.25em;
-    font-style: italic; */
     padding: 1em 1em 0.25em 1em;
 }
 
@@ -240,8 +237,6 @@ p.description {
 p.concept {
     font-size: 1.1rem;
     padding: 1em;
-    /* color: rgb(215, 223, 204); */
-    /* background-color: rgb(13, 26, 0); */
 }
 
 
@@ -256,7 +251,7 @@ h3.accomplish {
 }
 
 dt.year {
-    color: rgb(119, 128, 108);
+    color: rgb(13, 26, 0);
 }
 
 dd.exhibit {
@@ -340,7 +335,7 @@ footer ul {
 ==================================== */
 
 
-/* Extremely tiny devices (360px and down) */
+/* Tiniest devices (360px and down) */
 
 @media only screen and (max-width: 360px) {
     body {
@@ -466,7 +461,7 @@ footer ul {
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and phablets, 600px and up) */
 
 @media only screen and (min-width: 600px) {
     body {
