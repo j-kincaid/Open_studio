@@ -218,13 +218,14 @@ ul.detail-list {
 }
 
 ul.detail-list li {
-    color: rgb(99, 99, 97);
+    color: rgb(26, 50, 1);
     font-size: 1.75rem;
 }
 
 p.details {
     display: inline;
     font-size: 1.25rem;
+    color: rgb(26, 50, 1);
 }
 
 p.description {
@@ -361,7 +362,8 @@ footer ul {
         color: rgb(13, 26, 0);
     }
     p.details {
-        font-size: .6rem;
+        font-size: 2rem;
+        font-weight: bolder;
         color: rgb(13, 26, 0);
     }
     p.description {
