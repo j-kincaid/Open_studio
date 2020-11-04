@@ -347,9 +347,12 @@ footer ul {
     h1.name a {
         font-size: 3rem;
     }
-    div.hero h2 {
-        font-size: 2.5rem;
+    h2 {
+        font-size: 2em;
     }
+    /* div.hero h2 {
+        font-size: 2.5rem;
+    } */
     p {
         font-size: .5rem;
         margin-bottom: 1.8em;
