@@ -443,7 +443,7 @@ footer ul {
         margin-top: 1.5vh;
     }
     ul.detail-list li {
-        font-size: 1.5;
+        font-size: 1.5vh;
     }
     p.details {
         font-size: 0.75rem;
@@ -495,7 +495,7 @@ footer ul {
         margin-top: .5vh;
     }
     ul.detail-list li {
-        font-size: 1.75;
+        font-size: 1.75vh;
     }
     ul.top-nav {
         margin-right: 4.5rem;
@@ -557,7 +557,7 @@ footer ul {
         margin-top: .25vh;
     } */
     ul.detail-list li {
-        font-size: 3.75;
+        font-size: 3.75rem;
     }
     p.concept {
         font-size: 3.75rem;
