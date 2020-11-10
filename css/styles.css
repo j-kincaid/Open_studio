@@ -124,7 +124,7 @@ h1 a:hover {
 h2.headline {
     font-size: 3vw;
     font-weight: lighter;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     padding: 0.25vw 0 0 6vw;
     color: rgb(147, 147, 145);
     margin-bottom: 0;
@@ -139,7 +139,7 @@ h2.headline {
     justify-content: space-between;
 }
 
-h1 a,
+.name a,
 .top-nav a {
     color: rgb(147, 147, 145);
     font-size: .25rem;
@@ -337,7 +337,7 @@ footer ul {
 ==================================== */
 
 
-/* Tiniest devices (360px and down) */
+/* Extremely tiny devices (360px and down) */
 
 @media only screen and (max-width: 360px) {
     body {
@@ -347,16 +347,13 @@ footer ul {
     h1.name a {
         font-size: 3rem;
     }
-    h2 {
-        font-size: 2em;
-    }
-    /* div.hero h2 {
+    div.hero h2 {
         font-size: 2.5rem;
-    } */
+    }
     p {
         font-size: .5rem;
         margin-bottom: 1.8em;
-        color: #79899a;
+        color: rgb(13, 26, 0);
     }
     div.container h2,
     div.primary-col h2,
@@ -366,8 +363,7 @@ footer ul {
         color: rgb(13, 26, 0);
     }
     p.details {
-        font-size: 2rem;
-        font-weight: bolder;
+        font-size: .6rem;
         color: rgb(13, 26, 0);
     }
     p.description {
@@ -393,9 +389,6 @@ footer ul {
         font-size: 1.5rem;
         color: rgb(13, 26, 0);
     }
-    aside {
-        max-width: 23rem;
-    }
     h3.accomplish {
         font-size: 1.85rem;
         color: rgb(13, 26, 0);
@@ -416,7 +409,7 @@ footer ul {
         font-size: 2rem;
     }
     h2.headline {
-        font-size: 1rem;
+        font-size: 1.35rem;
     }
     ul.top-nav {
         display: flex;
@@ -446,13 +439,13 @@ footer ul {
         margin-top: 1.5vh;
     }
     ul.detail-list li {
-        font-size: 1.5vh;
+        font-size: 1.5;
     }
     p.details {
         font-size: 0.75rem;
     }
     p {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         margin-bottom: 2em;
     }
     h3.accomplish {
@@ -467,7 +460,7 @@ footer ul {
 }
 
 
-/* Small devices (portrait tablets and phablets, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
     body {
@@ -480,7 +473,7 @@ footer ul {
         font-size: 1.75rem;
     }
     p {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin-bottom: 1.8em;
     }
     h3.accomplish {
@@ -498,7 +491,7 @@ footer ul {
         margin-top: .5vh;
     }
     ul.detail-list li {
-        font-size: 1.75vh;
+        font-size: 1.75;
     }
     ul.top-nav {
         margin-right: 4.5rem;
@@ -560,7 +553,7 @@ footer ul {
         margin-top: .25vh;
     } */
     ul.detail-list li {
-        font-size: 3.75rem;
+        font-size: 3.75;
     }
     p.concept {
         font-size: 3.75rem;
