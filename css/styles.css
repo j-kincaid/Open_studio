@@ -358,8 +358,7 @@ footer ul {
     }
     div.container h2,
     div.primary-col h2,
-    div.secondary-col h2,
-    {
+    div.secondary-col h2 {
         font-size: 0.5rem;
         color: rgb(13, 26, 0);
     }
