@@ -351,6 +351,7 @@ footer ul {
         font-size: 2.5rem;
     }
     p {
+        width: auto;
         font-size: .5rem;
         margin-bottom: 1.8em;
         color: rgb(13, 26, 0);
@@ -358,7 +359,7 @@ footer ul {
     div.container h2,
     div.primary-col h2,
     div.secondary-col h2,
-    div#contactForm h2 {
+    {
         font-size: 0.5rem;
         color: rgb(13, 26, 0);
     }
@@ -369,7 +370,7 @@ footer ul {
     p.description {
         font-size: .5rem;
         color: rgb(13, 26, 0);
-        padding: 5rem;
+        padding: 2.5rem;
     }
     ul.top-nav {
         display: flex;
