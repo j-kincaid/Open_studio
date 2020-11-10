@@ -369,6 +369,7 @@ footer ul {
     p.description {
         font-size: .5rem;
         color: rgb(13, 26, 0);
+        padding: 5rem;
     }
     ul.top-nav {
         display: flex;
