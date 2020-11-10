@@ -266,10 +266,11 @@ dd.exhibit {
 
 iframe#violet {
     margin: 0 0 .0em 0.25em;
-    margin-bottom: 2em;
+    position: relative;
+    /* margin-bottom: 2em; */
     /* max-width: 300px;
     min-height: 70vh; */
-    /* display: block; */
+    display: block;
     float: right;
 }
 
@@ -314,6 +315,7 @@ h2.contact {
 /*----------FOOTER-------------*/
 
 footer {
+    margin-top: 3em;
     background-color: rgb(224, 227, 221);
     text-align: center;
     padding: .25em 0;
