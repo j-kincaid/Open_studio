@@ -86,6 +86,10 @@ div.secondary-col h2 {
     padding: 1em 1em 0.25em 1em;
 }
 
+aside {
+    margin-bottom: 3em;
+}
+
 
 /* ================================= 
   Base Layout Styles
