@@ -25,9 +25,10 @@ DARK GREEN TEXT = color: rgb(26, 50, 1);
 
 body {
     background-color: rgb(242, 245, 239);
-    color: rgb(68, 68, 66);
+    color: rgb(27, 27, 26);
     font-size: 0.5rem;
     font-family: 'Lato', sans-serif;
+    font-weight: normal;
     line-height: 1.4;
     width: 98%;
 }
@@ -219,13 +220,21 @@ div.dropdown {
 
 /* -------------details, image descriptions ---------------*/
 
-ul.detail-list {
+div.detail-list {
     padding-bottom: .5em;
+    font-weight: normal;
 }
 
+
+/* ul.detail-list {
+    padding-bottom: .5em;
+    font-weight: normal;
+} */
+
 ul.detail-list li {
-    color: rgb(26, 50, 1);
+    color: rgb(27, 27, 26);
     font-size: 1.75rem;
+    font-weight: normal;
 }
 
 p.date {
@@ -236,7 +245,7 @@ p.date {
 p.details {
     display: inline;
     font-size: 1.25rem;
-    color: rgb(26, 50, 1);
+    color: rgb(27, 27, 26);
 }
 
 p.description {
