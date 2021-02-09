@@ -151,6 +151,7 @@ h2.headline {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .name a,
@@ -557,7 +558,11 @@ footer ul {
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
+    .main-header {
+        /* height: 200px; */
+        justify-content: flex-end;
+    }
     h1.name a {
         font-size: 4.25rem;
     }
@@ -608,14 +613,18 @@ footer ul {
 }
 
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 1025px and up) */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1025px) {
     body {
         font-size: 1rem;
     }
     h2.headline {
         font-size: 2.75rem;
+    }
+    .main-header {
+        flex-direction: row;
+        align-items: /*    the navigation is aligned right*/
     }
     div.primary-col h2 {
         font-size: 2.25rem;
