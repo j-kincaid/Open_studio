@@ -111,12 +111,18 @@ aside {
 
 /*---------HEADER----------*/
 
+header.main-header,
+.top-nav {
+    display: flex;
+    flex-direction: column;
+}
+
 header.main-header {
+    padding-top: 2em;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     width: 100%;
-    padding-top: .5em;
     padding-bottom: .5em;
     color: #fff;
     background-color: rgb(46, 46, 45);
@@ -152,6 +158,7 @@ h2.headline {
 /*---------NAVIGATION----------*/
 
 .top-nav {
+    margin-top: 1.5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -160,9 +167,19 @@ h2.headline {
 
 .name a,
 .top-nav a {
+    display: block;
     color: #fff;
-    font-size: .25rem;
+    font-size: 1.125em;
+    font-weight: 300;
     text-align: center;
+    padding: .4em;
+    border-bottom: 1px solid #ebecdc;
+}
+
+.nav a:hover,
+.top-nav a:hover {
+    color: #0b0b0b;
+    border-bottom-color: rgb(92, 92, 56);
 }
 
 ul.top-nav {
@@ -188,7 +205,8 @@ ul.top-nav li a:active,
 /* ---- Dropdown menu  ---- */
 
 div.dropdown {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .dropbtn {
@@ -363,72 +381,6 @@ footer ul {
 ==================================== */
 
 
-/* Extremely tiny devices (360px and down) */
-
-@media only screen and (max-width: 360px) {
-    body {
-        font-size: 1rem;
-        line-height: 1;
-    }
-    header.main-header {
-        height: 320px;
-    }
-    h1.name a {
-        font-size: 3rem;
-    }
-    div.hero h2 {
-        font-size: 2.5rem;
-    }
-    p {
-        width: auto;
-        font-size: .5rem;
-        margin-bottom: 1.8em;
-        color: rgb(13, 26, 0);
-    }
-    div.container h2,
-    div.primary-col h2,
-    div.secondary-col h2 {
-        font-size: 0.5rem;
-        color: rgb(13, 26, 0);
-    }
-    p.details {
-        font-size: .6rem;
-        color: rgb(13, 26, 0);
-    }
-    p.description {
-        font-size: .5rem;
-        color: rgb(13, 26, 0);
-        padding: 2.5rem;
-    }
-    ul.top-nav {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-    }
-    button.dropbtn {
-        width: 4rem;
-    }
-    ul.top-nav li a,
-    div.dropdown-content li a,
-    button.dropbtn {
-        margin: 0.25rem;
-        font-size: 0.4rem;
-    }
-    ul.detail-list li {
-        font-size: 1.5rem;
-        color: rgb(13, 26, 0);
-    }
-    h3.accomplish {
-        font-size: 1.85rem;
-        color: rgb(13, 26, 0);
-    }
-    dd.exhibit {
-        margin-top: 3%;
-    }
-}
-
-
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
@@ -561,7 +513,16 @@ footer ul {
 
 @media only screen and (min-width: 769px) {
     .main-header {
+        height: 200px;
         justify-content: flex-end;
+    }
+    .top-nav {
+        margin-top: 3em;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .top-nav a {
+        border-bottom-color: transparent;
     }
     h1.name a {
         font-size: 4.25rem;
@@ -619,12 +580,19 @@ footer ul {
     body {
         font-size: 1rem;
     }
+    .main-header {
+        flex-direction: row;
+    }
     h2.headline {
         font-size: 2.75rem;
     }
     .top-nav {
-        flex-direction: row;
-        /* align-items:    the navigation is aligned right */
+        margin-top: 0;
+        align-self: center;
+    }
+    .top-nav li {
+        margin-right: .75em;
+        margin-left: .75em;
     }
     div.primary-col h2 {
         font-size: 2.25rem;
@@ -647,46 +615,5 @@ footer ul {
     dd.exhibit {
         font-size: 2rem;
         line-height: 1.5;
-    }
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 1200px) {
-    body {
-        font-size: 3.5rem;
-        line-height: 1.1;
-    }
-
-    h2.headline {
-        font-size: 2.5rem;
-    }
-    ul.top-nav li a,
-    button.dropbtn {
-        border-style: none;
-        font-size: 2.25rem;
-    }
-    div.dropdown-content {
-        width: 10rem;
-    }
-    div.dropdown-content a {
-        padding: 1.75rem;
-    }
-    p.description {
-        font-size: 3rem;
-    }
-    p.details {
-        font-size: 1.5rem;
-        padding-top: 0.1rem;
-        margin-top: 0.1rem;
-        line-height: 1;
-    }
-    dt.year {
-        font-size: 1.5rem;
-    }
-    dd.exhibit {
-        font-size: 1.25rem;
-        line-height: 1.25;
     }
 }
