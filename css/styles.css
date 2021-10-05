@@ -466,7 +466,7 @@ footer ul {
         margin-bottom: 1.8em;
     }
     h3.accomplish {
-        font-size: 3.5rem;
+        font-size: 2.75rem;
     }
     dt.year {
         font-size: 1.75rem;
@@ -499,11 +499,11 @@ footer ul {
         font-size: 4rem;
     }
     dt.year {
-        font-size: 2.25rem;
+        font-size: 2.0rem;
         line-height: 2.75;
     }
     dd.exhibit {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         line-height: 1.75;
     }
 }
@@ -561,15 +561,15 @@ footer ul {
         max-width: 60%;
     }
     h3.accomplish {
-        font-size: 2.75rem;
+        font-size: 2.0rem;
     }
     dt.year {
-        font-size: 2rem;
-        line-height: 2.15;
+        font-size: 1.35rem;
+        line-height: 1.5;
     }
     dd.exhibit {
-        font-size: 1.75rem;
-        line-height: 2;
+        font-size: 1.25rem;
+        line-height: 1.25;
     }
 }
 
@@ -598,7 +598,7 @@ footer ul {
         font-size: 2.25rem;
     }
     p.description {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
     }
     p.concept {
         font-size: 1.25rem;
@@ -609,11 +609,14 @@ footer ul {
     ul.top-nav li a {
         font-size: 1.5rem;
     }
+    h3.accomplish {
+        font-size: 1.8rem;
+    }
     dt.year {
-        font-size: 2.15rem;
+        font-size: 1.30rem;
     }
     dd.exhibit {
-        font-size: 2rem;
+        font-size: 1.20rem;
         line-height: 1.5;
     }
 }
