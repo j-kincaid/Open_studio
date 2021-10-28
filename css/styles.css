@@ -1,14 +1,13 @@
-/* Jessica Kincaid 
-
-gh-pages Open_studio
-
 /* color palette
-PAGE BACKGROUND lightest gray = background-color: rgb(242, 245, 239);
-PARAGRAPH TEXT = color: rgb(68, 68, 66);
-HEADLINE slate greenish gray =  color: rgb(119, 128, 108);
-HIGHLIGHT/hover Pale highlight citrus yellow = color: rgb(186, 245, 109);
-BACKGROUND, YEAR Darkest green =  background-color: rgb(13, 26, 0);
-DARK GREEN TEXT = color: rgb(26, 50, 1);
+
+PRIMARY dark olive brown = background-color: #201C00;
+PRIMARY CONTAINER gold = background-color: #52E56A;
+SECONDARY taupe = background-color: #635F41;
+TERTIARY teal = background-color: #406653;
+TERTIARY CONTAINER mint = background-color: #C2ECD4;
+PAGE BACKGROUND off-white = background-color: #FFFBF7;
+PARAGRAPH TEXT dark brown = color: #1D1C16;
+
 */
 
 
@@ -24,8 +23,8 @@ DARK GREEN TEXT = color: rgb(26, 50, 1);
 }
 
 body {
-    background-color: rgb(242, 245, 239);
-    color: rgb(27, 27, 26);
+    background-color: #FFFBF7;
+    color: #1D1C16;
     font-size: 0.5rem;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
@@ -70,6 +69,7 @@ p {
 div.hero h2 {
     font-size: 1.75em;
     padding: 0 2vw;
+    color: #FFF;
 }
 
 h3 {
@@ -82,7 +82,7 @@ h3,
 a {
     margin-bottom: 1vh;
     padding-bottom: 0;
-    color: rgb(109, 109, 108);
+    color: #635F41;
     text-decoration: none;
 }
 
@@ -124,8 +124,8 @@ header.main-header {
     margin: auto;
     width: 100%;
     padding-bottom: .5em;
-    color: #fff;
-    background-color: rgb(46, 46, 45);
+    color: #696000;
+    background-color: #201C00;
 }
 
 h1 {
@@ -137,12 +137,12 @@ h1.name {
     margin: 0;
     padding: 5vw 3vw 0 5vw;
     font-weight: lighter;
-    color: #fff;
+    color: #F2E56A;
 }
 
 
 h1 a:hover {
-    color: rgb(186, 245, 109);
+    color: #406653;
 }
 
 h2.headline {
@@ -150,7 +150,7 @@ h2.headline {
     font-weight: lighter;
     text-transform: uppercase;
     padding: 0.25vw 0 0 2vw;
-    color: #fff;
+    color: #F2E56A;
     /* margin-bottom: 0; */
 }
 
@@ -168,17 +168,17 @@ h2.headline {
 .name a,
 .top-nav a {
     display: block;
-    color: #fff;
+    color: #F2E56A;
     font-size: 1.125em;
     font-weight: 300;
     text-align: center;
     padding: .4em;
-    border-bottom: 1px solid #ebecdc;
+    border-bottom: 1px solid #F2E56A;
 }
 
 .nav a:hover,
 .top-nav a:hover {
-    color: #0b0b0b;
+    color: #406653;
     border-bottom-color: rgb(92, 92, 56);
 }
 
@@ -197,8 +197,8 @@ ul.top-nav li {
 ul.top-nav li a:active,
 .dropbtn {
     text-transform: uppercase;
-    color: rgb(186, 245, 109);
-    background-color: rgb(46, 46, 45);
+    color: #F2E56A;
+    background-color: #201C00;
 }
 
 
@@ -216,7 +216,7 @@ div.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    color: rgb(186, 245, 109);
+    color: #EAE3BD;
     background-color: rgb(46, 46, 45);
     z-index: 1;
     max-width: 13em;
@@ -234,12 +234,12 @@ div.dropdown {
 
 .dropdown-content a:hover {
     padding: .5em 3.5em;
-    color: rgb(215, 223, 204);
+    color: #406653;
     text-align: center;
 }
 
 .dropdown-content a:visited {
-    color: rgb(186, 245, 109);
+    color: #635f41;
 }
 
 .dropdown:hover .dropdown-content {
@@ -401,6 +401,7 @@ footer ul {
     }
     button.dropbtn {
         width: 5rem;
+        color: #615e57;
     }
     div.dropdown-content a {
         padding: 0.5rem;
