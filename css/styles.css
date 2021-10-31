@@ -310,10 +310,10 @@ dd.exhibit {
 /* -------------DESIGN Page ---------------*/
 
 iframe#violet {
-    margin: 0 0 .0em 0.25em;
+    margin-bottom: 5em;
     display: block;
     max-width: 500px;
-    display: block;
+    max-height:fit-content;
     float: right;
 }
 
