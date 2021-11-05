@@ -1,7 +1,7 @@
 /* color palette
 
 PRIMARY dark olive brown = background-color: #201C00;
-PRIMARY CONTAINER gold = background-color: #52E56A;
+PRIMARY CONTAINER mint green = background-color: #52E56A;
 SECONDARY taupe = background-color: #635F41;
 TERTIARY teal = background-color: #406653;
 TERTIARY CONTAINER mint = background-color: #C2ECD4;
@@ -47,13 +47,13 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(254, 245, 225);
     position: absolute;
     top: 5px;
     left: 5px;
     transition: 0.3s;
     box-shadow: 
-        inset 4px 4px 4px rgb(255,255,255),
+        inset 4px 4px 4px rgb(245, 220, 155),
         inset -4px -4px 4px rgb(195 193 198 / 90%);
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .dark > * {
-    color: rgb(255, 255, 255);
+    color: rgb(250, 239, 196);
 }
 div.hero,
 div.container {
