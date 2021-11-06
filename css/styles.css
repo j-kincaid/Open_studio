@@ -1,7 +1,7 @@
 /* color palette
 
-PRIMARY dark olive brown = background-color: #201C00;
-PRIMARY CONTAINER mint green = background-color: #52E56A;
+PRIMARY dark olive brown = background-color: #201C00; rgb(242, 229, 106);
+PRIMARY CONTAINER mint green = background-color: #52E569; 
 SECONDARY taupe = background-color: #635F41;
 TERTIARY teal = background-color: #406653;
 TERTIARY CONTAINER mint = background-color: #C2ECD4;
@@ -38,7 +38,7 @@ body {
 .switch {
     width: 80px;
     height: 40px;
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(0, 33, 19);
     box-shadow: -10px 15px 20px rgb(50 50 50/ 25%);
     border-radius: 20px;
     position: relative;
@@ -47,7 +47,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    background-color: rgb(254, 245, 225);
+    background-color: rgb(234, 227, 189);
     position: absolute;
     top: 5px;
     left: 5px;
@@ -58,7 +58,7 @@ body {
 }
 
 .dark {
-    background-color: rgb(57, 57, 57);
+    background-color: rgb(73, 71, 58);
     transition: 0.3s;
 }
 
@@ -78,7 +78,9 @@ body {
 
 .dark > * {
     color: rgb(250, 239, 196);
+    /* background-color: rgb(73, 71, 58); */
 }
+
 div.hero,
 div.container {
     width: 100%;
@@ -104,8 +106,6 @@ p {
     display: inline-block;
     font-size: 1em;
     margin-bottom: 1.8em;
-    font-style: normal;
-    font-weight: normal;
 }
 
 .hero-img {
@@ -161,6 +161,7 @@ header.main-header,
 .top-nav {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 30px;
 }
 
@@ -168,7 +169,7 @@ header.main-header {
     padding-top: 2em;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0;
     width: 100%;
     padding-bottom: .5em;
     color: #696000;
@@ -266,15 +267,16 @@ div.dropdown {
 
 .dropbtn {
     font-size: 1.25rem;
+    text-align: center;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     color: #EAE3BD;
-    background-color: rgb(46, 46, 45);
+    background-color: #201C00;
     z-index: 1;
-    max-width: 13em;
+    max-width: 15em;
     text-align: center;
 }
 
@@ -285,6 +287,7 @@ div.dropdown {
     text-decoration: none;
     display: block;
     text-align: center;
+    border-radius: 3px;
 }
 
 .dropdown-content a:hover {
@@ -294,7 +297,7 @@ div.dropdown {
 }
 
 .dropdown-content a:visited {
-    color: #635f41;
+    color: rgb(232, 227, 209);
 }
 
 .dropdown:hover .dropdown-content {
@@ -324,16 +327,14 @@ p.date {
 p.details {
     display: inline;
     font-size: 1.35rem;
-    color: rgb(27, 27, 26);
+    /* color: rgb(232, 227, 209); */
 }
 
 p.description {
     margin-top: 0.75vw;
     height: 2em;
-    font-size: 1.25rem;
     font-style: italic;
     margin-bottom: 0;
-    font-weight:lighter;
 }
 
 p.concept {
@@ -457,6 +458,9 @@ footer ul {
     body {
         font-size: 1.15rem;
     }
+    h1 {
+        font-size: 1.75rem;
+    }
     h1.name a {
         font-size: 2rem;
     }
@@ -498,9 +502,12 @@ footer ul {
         font-size: 0.75rem;
     }
     p {
-        font-size: 1.15rem;
+        font-size: 1.05rem;
         display: inline-block;
-        margin-bottom: 2em;
+        margin-bottom: 0.5em;
+    }
+    p.description {
+        font-size: .75rem;
     }
     h3.accomplish {
         font-size: 1.5rem;
