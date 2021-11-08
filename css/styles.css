@@ -349,12 +349,10 @@ section.accomplish {
     width: 98%;
 }
 
-h3.accomplish {
-    color: rgb(13, 26, 0);
-}
-
-dt.year {
-    color: rgb(13, 26, 0);
+h3.accomplish, 
+dt.year  {
+    color: #959181;
+    font-weight: 300;
 }
 
 dd.exhibit {
