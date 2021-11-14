@@ -59,6 +59,7 @@ body {
 }
 
 .dark {
+    background-image: url('img/darkMode.jpg');
     background-color: rgb(73, 71, 58);
     transition: 0.3s;
 }
