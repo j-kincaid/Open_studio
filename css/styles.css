@@ -27,9 +27,7 @@ RESUME ACCOMPLISHMENT AND YEAR TEXT sludge taupe = color: #959181; rgb(149, 145,
 
 body {
     background-color: rgb(73, 71, 58);
-    /* background-color: #FFFBF7; */
     color: rgb(250, 239, 196);
-    /* color: #1D1C16; */
     font-size: 0.5rem;
     font-family: 'Georama', sans-serif;
     font-weight: normal;
@@ -61,7 +59,6 @@ body {
 }
 
 .dark {
-    /* background-color: rgb(73, 71, 58);  */
     background-color: #FFFBF7;
     transition: 0.3s;
 }
