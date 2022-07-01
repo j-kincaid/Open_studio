@@ -52,7 +52,7 @@ body {
     position: absolute;
     top: 5px;
     left: 5px;
-    transition: 0.3s;
+    transition: 3s;
     box-shadow: 
         inset 4px 4px 4px rgb(245, 220, 155),
         inset -4px -4px 4px rgb(195 193 198 / 90%);
@@ -60,7 +60,7 @@ body {
 
 .dark {
     background-color: #FFFBF7;
-    transition: 0.3s;
+    transition: 4s;
 }
 
 .moon {
@@ -80,7 +80,6 @@ body {
 .dark > * {
     color: rgb(250, 239, 196);
     color: #1D1C16;
-    /* background-color: rgb(73, 71, 58); */
 }
 
 div.hero,
