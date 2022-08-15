@@ -411,7 +411,9 @@ h2.contact {
 
 
 /*----------FOOTER-------------*/
-
+.foot {
+    color: #1D1C16;
+}
 header.main-header {
     padding-top: 2em;
     display: flex;
