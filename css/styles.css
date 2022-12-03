@@ -110,6 +110,10 @@ p {
     margin-bottom: 1.8em;
 }
 
+p.summary {
+    margin-bottom: 10em;
+}
+
 .hero-img {
     max-width: 100%;
 }
