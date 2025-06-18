@@ -63,9 +63,10 @@ body {
 .dark {
     background-color: 
 rgba(255,255,255,0.55);
-    transition: 4s;
+    transition: 2s;
 }
-.dark .graybtn {
+.dark 
+.graybtn {
     text-transform: uppercase;
     color: rgb(255, 255, 255);  
     background-color: rgba(255,255,255,0.0);
@@ -364,11 +365,14 @@ section.accomplish {
     width: 98%;
 }
 
-h3.accomplish, 
-dt.year  {
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 300;
+    h2.headline,
+    h3.milestone, 
+    dt.year  {
+    color: limegreen;
 }
+
+
+
 
 dd.exhibit {
     width: 88%;
@@ -376,7 +380,7 @@ dd.exhibit {
 }
 
 
-/* -------------DESIGN Page ---------------*/
+/* -------------ABSTRACT Page ---------------*/
 
 iframe#violet {
     margin-bottom: 5em;
@@ -524,7 +528,7 @@ footer ul {
     p.description {
         font-size: .75rem;
     }
-    h3.accomplish {
+    h3.milestone {
         font-size: 1.5rem;
     }
     dd.exhibit {
@@ -558,7 +562,7 @@ footer ul {
         font-size: 1.75rem;
         margin-bottom: 1.8em;
     }
-    h3.accomplish {
+    h3.milestone {
         font-size: 2.75rem;
     }
     dt.year {
@@ -653,7 +657,7 @@ footer ul {
     aside {
         max-width: 60%;
     }
-    h3.accomplish {
+    h3.milestone {
         font-size: 2.0rem;
     }
     dt.year {
@@ -702,7 +706,7 @@ footer ul {
     ul.top-nav li a {
         font-size: 1.5rem;
     }
-    h3.accomplish {
+    h3.milestone {
         font-size: 1.8rem;
     }
     dt.year {
