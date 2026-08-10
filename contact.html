@@ -1,20 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Beadwork, Surrealism, Abstract Art, Fine Art, Outsider Art, Kansas City" name="keywords">
-    <meta content="Jessica Kincaid" name="author">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Beadwork, Surrealism, Abstract Art, Fine Art, Outsider Art, Kansas City"
+      name="keywords"
+    />
+    <meta content="Jessica Kincaid" name="author" />
     <title>Jessica Kincaid | Open Studio</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-<div>
-    <!-- .main-header -->
-    <header class="main-header">
+  <body>
+    <div>
+      <!-- .main-header -->
+      <header class="main-header">
         <div class="switch">
           <div class="flicker"></div>
           <div class="moon"></div>
@@ -22,104 +24,137 @@
         <h1 class="name"><a href="index.html">Jessica Kincaid</a></h1>
         <h2 class="headline">Open Studio</h2>
         <ul class="top-nav">
-            <li>
-                <div class="dropdown">
-                    <button class="dropbtn">art</button>
-                    <div class="dropdown-content">
-                        <a href="dream.html">dreams</a> 
-                        <a href="nature.html">nature</a> 
-                        <a href="abstract.html">abstract</a>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <a href="about.html">about</a>
-            </li>
-            <li>
-                <a href="resume.html">resume</a>
-            </li>
-            <li>
-                <a href="contact.html">contact</a>
-            </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">art</button>
+              <div class="dropdown-content">
+                <a href="dream.html">dreams</a>
+                <a href="nature.html">nature</a>
+                <a href="abstract.html">abstract</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="resume.html">resume</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
         </ul>
-    </header>
-    <!-- /. main-header -->
+      </header>
+      <!-- /. main-header -->
 
-   <!-- .container -->
-    <div class="container">
+      <!-- .container -->
+      <div class="container">
         <!-- .primary-col -->
         <main class="primary-col">
-            
-            <!-- Featured Art Piece Section -->
-            <section class="featured-art">
-                <h1>Contact</h1>
-           <img src="img/nature-4.jpg" class="contact-img" alt="Beaded textile: fall tree">
-                <p class="description">Troy's Tree</p>
-                
-                <!-- div.detail-list -->
-                <div class="detail-list">
-                    <ul>
-                        <li>
-                            <p class="details">glass beads, thread.</p>
-                        </li>
-                        <li>
-                            <p class="details">3 x 5in</p>
-                        </li>
-                        <li>
-                            <p class="details">2010</p>
-                        </li>
-                    </ul>
+          <!-- Featured Art Piece Section -->
+          <section class="featured-art">
+            <h1>Contact</h1>
+            <img
+              src="img/nature-4.jpg"
+              class="contact-img"
+              alt="Beaded textile: fall tree"
+            />
+            <p class="description">Troy's Tree</p>
+
+            <!-- div.detail-list -->
+            <div class="detail-list">
+              <ul>
+                <li>
+                  <p class="details">glass beads, thread.</p>
+                </li>
+                <li>
+                  <p class="details">3 x 5in</p>
+                </li>
+                <li>
+                  <p class="details">2010</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Contact Form Section -->
+          <section class="contact-section" style="margin-top: 3rem">
+            <h1>Get in Touch</h1>
+            <p class="description">
+              Inquiries regarding available pieces, commissions, or gallery
+              exhibitions.
+            </p>
+
+            <div class="collector-contact-form">
+              <form action="https://formspree.io/f/xrpzpnnr" method="POST">
+                <div class="field-group">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Jane Doe"
+                  />
                 </div>
-            </section>
 
-       <!-- Contact Form Section -->
-            <section class="contact-section" style="margin-top: 3rem;">
-                <h1>Get in Touch</h1>
-                <p class="description">Inquiries regarding available pieces, commissions, or gallery exhibitions.</p>
-                
-                <div class="collector-contact-form">
-                  <form action="https://formspree.io/f/YOUR_ENDPOINT_ID" method="POST">
-                    <div class="field-group">
-                      <label for="name">Your Name</label>
-                      <input type="text" id="name" name="name" required placeholder="Jane Doe">
-                    </div>
-
-                    <div class="field-group">
-                      <label for="email">Your Email Address</label>
-                      <input type="email" id="email" name="_replyto" required placeholder="you@example.com">
-                    </div>
-
-                    <div class="field-group">
-                      <label for="message">Your Message</label>
-                      <textarea id="message" name="message" rows="6" required placeholder="Tell me about your inquiry..."></textarea>
-                    </div>
-
-                    <!-- Hidden spam trap field -->
-                    <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
-
-                    <button type="submit" class="submit-btn">Send Message</button>
-                  </form>
+                <div class="field-group">
+                  <label for="email">Your Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="_replyto"
+                    required
+                    placeholder="you@example.com"
+                  />
                 </div>
-            </section></main>
+
+                <div class="field-group">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                    placeholder="Tell me about your inquiry..."
+                  ></textarea>
+                </div>
+
+                <!-- Hidden spam trap field -->
+                <input
+                  type="text"
+                  name="_gotcha"
+                  style="display: none !important"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+
+                <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+            </div>
+          </section>
+        </main>
         <!-- / .primary-col -->
+      </div>
+      <!-- /.container -->
     </div>
-    <!-- /.container -->
-                
-</div>
-           
-<!-- footer -->
+
+    <!-- footer -->
     <footer class="main-footer">
-        <ul>
-            <li>
-              <a href="https://www.instagram.com/jessica.kincaid/"><img class="insta" alt="instagram icon" src="img/instagram.svg"></a>
-            </li>
-            <li>
-              <a href="#top"><img class="top" alt="top arrow" src="img/arrow-up.svg"></a>
-            </li>
-        </ul>
-        <p class="foot"><small>&copy; 2026 Jessica Kincaid</small></p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/jessica.kincaid/"
+            ><img class="insta" alt="instagram icon" src="img/instagram.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="#top"
+            ><img class="top" alt="top arrow" src="img/arrow-up.svg"
+          /></a>
+        </li>
+      </ul>
+      <p class="foot"><small>&copy; 2026 Jessica Kincaid</small></p>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
